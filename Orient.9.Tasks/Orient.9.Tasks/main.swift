@@ -63,3 +63,24 @@ func minMax(array:[Int]) -> (min:Int , max:Int) {
 print(minMax(array: [210,62,9091,10000,784938]))
 */
 //------------------------------------------------Task 3
+
+
+
+//------------------------------------------------Task 5
+/*
+func sumOfNums(_ number:Int) -> Int {
+    var resultNum:Int = 0
+    var testNumber = number
+    
+    while testNumber > 0 {
+        let variable = testNumber % 10
+        resultNum = resultNum + variable
+        testNumber = testNumber / 10
+    }
+    return resultNum
+}
+
+
+print(sumOfNums(1235))
+ */
+//------------------------------------------------Task 5
