@@ -20,5 +20,23 @@ print("---------------------------------------")
  */
 //------------------------------------------------Task 1
 
+
+
+
+
+
 //------------------------------------------------Task 2
+
+func greeting(name:String, lan:String = "AZ") {
+    if lan == "Türk" {
+        print("Merhaba")
+    }
+    if lan == "AZ" {
+        print("Salam")
+    }
+}
+
+
+greeting(name:"Vidadi",lan:"Türk")
+
 
