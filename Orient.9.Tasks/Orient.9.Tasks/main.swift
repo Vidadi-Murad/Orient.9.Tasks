@@ -26,7 +26,7 @@ print("---------------------------------------")
 
 
 //------------------------------------------------Task 2
-
+/*
 func greeting(name:String, lan:String = "AZ") {
     if lan == "Türk" {
         print("Merhaba")
@@ -38,5 +38,28 @@ func greeting(name:String, lan:String = "AZ") {
 
 
 greeting(name:"Vidadi",lan:"Türk")
+*/
+//------------------------------------------------Task 2
 
 
+
+
+//------------------------------------------------Task 3
+/*
+func minMax(array:[Int]) -> (min:Int , max:Int) {
+    var minNumber = array[0]
+    var maxNumber = array[0]
+    for i in array[1..<array.count] {
+        if i < minNumber {
+            minNumber = i
+        }
+        if i > maxNumber {
+            maxNumber = i
+        }
+    }
+    return (maxNumber,minNumber)
+}
+
+print(minMax(array: [210,62,9091,10000,784938]))
+*/
+//------------------------------------------------Task 3
