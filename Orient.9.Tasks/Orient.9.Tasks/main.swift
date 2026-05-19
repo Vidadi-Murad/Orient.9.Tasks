@@ -107,3 +107,27 @@ print(avarage([10.0,11.0,12.5,19.4]))
 
 */
 //------------------------------------------------Task 8
+
+
+//------------------------------------------------Task 6
+//              First Task
+/*
+func fieldAccount(_ number:Double) -> Double {
+    let pi:Double = 3.14
+    return pi * (number * number)
+}
+print(fieldAccount(10))
+//              Second Task
+func fieldAccount(_ width:Double, _ height:Double) -> Double {
+    return width * height
+}
+print("-----------------------")
+print(fieldAccount(10, 20))
+//              Third Task
+func fieldAccount(_ a:Double, _ b:Double, _ c:Double) -> Double {
+    return a * b * c * 0.5
+}
+print("-----------------------")
+print(fieldAccount(10, 20, 30))
+ */
+//------------------------------------------------Task 6
