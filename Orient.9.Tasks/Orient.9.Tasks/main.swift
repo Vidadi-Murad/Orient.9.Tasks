@@ -84,3 +84,26 @@ func sumOfNums(_ number:Int) -> Int {
 print(sumOfNums(1235))
  */
 //------------------------------------------------Task 5
+
+
+
+
+//------------------------------------------------Task 8
+/*
+func avarage(_ listofNums:[Double])  -> Int {
+    let dividing: Int = listofNums.count
+    var subsNums: Double = 0
+    for number in listofNums {
+        subsNums = subsNums + number
+    }
+    let intNums = Int(subsNums)
+    let result = intNums / dividing
+    
+    
+    return result
+}
+
+print(avarage([10.0,11.0,12.5,19.4]))
+
+*/
+//------------------------------------------------Task 8
