@@ -25,6 +25,13 @@ print("---------------------------------------")
 
 
 
+
+
+
+
+
+
+
 //------------------------------------------------Task 2
 /*
 func greeting(name:String, lan:String = "AZ") {
@@ -40,6 +47,10 @@ func greeting(name:String, lan:String = "AZ") {
 greeting(name:"Vidadi",lan:"Türk")
 */
 //------------------------------------------------Task 2
+
+
+
+
 
 
 
@@ -66,6 +77,37 @@ print(minMax(array: [210,62,9091,10000,784938]))
 
 
 
+
+
+
+
+
+
+
+
+
+//------------------------------------------------Task 4
+/*
+func account(mebleg:Int, with faiz:Int) -> Int {
+    return (mebleg * faiz) / 100
+ }
+ print(account(mebleg: 1000, with: 18))
+*/
+//------------------------------------------------Task 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //------------------------------------------------Task 5
 /*
 func sumOfNums(_ number:Int) -> Int {
@@ -88,25 +130,14 @@ print(sumOfNums(1235))
 
 
 
-//------------------------------------------------Task 8
-/*
-func avarage(_ listofNums:[Double])  -> Int {
-    let dividing: Int = listofNums.count
-    var subsNums: Double = 0
-    for number in listofNums {
-        subsNums = subsNums + number
-    }
-    let intNums = Int(subsNums)
-    let result = intNums / dividing
-    
-    
-    return result
-}
 
-print(avarage([10.0,11.0,12.5,19.4]))
 
-*/
-//------------------------------------------------Task 8
+
+
+
+
+
+
 
 
 //------------------------------------------------Task 6
@@ -134,14 +165,11 @@ print(fieldAccount(10, 20, 30))
 
 
 
-//------------------------------------------------Task 4
-/*
-func account(mebleg:Int, with faiz:Int) -> Int {
-    return (mebleg * faiz) / 100
- }
- print(account(mebleg: 1000, with: 18))
-*/
-//------------------------------------------------Task 4
+
+
+
+
+
 
 
 
@@ -160,6 +188,36 @@ print(squareOfNum(number:&myNumber))
 */
 //------------------------------------------------Task 7
 
+
+
+
+
+
+
+
+
+
+
+
+//------------------------------------------------Task 8
+/*
+func avarage(_ listofNums:[Double])  -> Int {
+    let dividing: Int = listofNums.count
+    var subsNums: Double = 0
+    for number in listofNums {
+        subsNums = subsNums + number
+    }
+    let intNums = Int(subsNums)
+    let result = intNums / dividing
+    
+    
+    return result
+}
+
+print(avarage([10.0,11.0,12.5,19.4]))
+
+*/
+//------------------------------------------------Task 8
 
 
 
