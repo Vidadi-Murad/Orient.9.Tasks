@@ -142,3 +142,20 @@ func account(mebleg:Int, with faiz:Int) -> Int {
  print(account(mebleg: 1000, with: 18))
 */
 //------------------------------------------------Task 4
+
+
+
+
+
+//------------------------------------------------Task 7
+/*
+func squareOfNum(number: inout Int) {
+    print(number * number)
+    
+}
+
+var myNumber: Int = 10
+print(squareOfNum(number:&myNumber))
+
+*/
+//------------------------------------------------Task 7
