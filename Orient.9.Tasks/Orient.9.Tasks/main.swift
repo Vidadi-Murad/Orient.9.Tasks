@@ -159,3 +159,46 @@ print(squareOfNum(number:&myNumber))
 
 */
 //------------------------------------------------Task 7
+
+
+
+
+
+
+
+
+
+//------------------------------------------------Task 9
+/*
+func swapFunc(var1: inout Int, var2: inout Int, var3: inout Int) {
+    if var1 < var2 {
+        let change = var1
+        var1 = var2
+        var2 = change
+    }
+    
+    if var1 < var3 {
+        let change = var1
+        var1 = var3
+        var3 = change
+    }
+    
+    if var2 < var3 {
+        let change = var2
+        var2 = var3
+        var3 = change
+    }
+}
+
+var skor1 = 20
+var skor2 = 30
+var skor3 = 40
+
+swapFunc(var1: &skor1, var2: &skor2, var3: &skor3)
+
+print(skor1)
+print(skor2)
+print(skor3)
+
+*/
+//------------------------------------------------Task 9
